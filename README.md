@@ -2,16 +2,16 @@
 
 ## Perspective De-skewing Through Contours
 
-•	Image enhancement [resizing, grayscale, gaussian blur, adaptive thresholding]
-•	Contour detection
-•	Contour sorting (left-to-right)
-•	Height and width thresholding
-•	Finding unique contours from the list of contours
-•	Finding coordinates of each contour
-•	Extracting left top’s and right bottom’s of all contours for manipulation
-•	Slicing first left and last bottom to get corner coordinates  
-•	Adding and subtracting some pixels out of corner coordinates to introduce slight skewness for perspective transform.
-•	Application of perspective transform on enhanced and skewed images
+-	Image enhancement [resizing, grayscale, gaussian blur, adaptive thresholding]
+-	Contour detection
+-	Contour sorting (left-to-right)
+-	Height and width thresholding
+-	Finding unique contours from the list of contours
+-	Finding coordinates of each contour
+-	Extracting left top’s and right bottom’s of all contours for manipulation
+-	Slicing first left and last bottom to get corner coordinates  
+-	Adding and subtracting some pixels out of corner coordinates to introduce slight skewness for perspective transform.
+-	Application of perspective transform on enhanced and skewed images
 
 ## Pytesseract after Image Enhancement Techniques
 
