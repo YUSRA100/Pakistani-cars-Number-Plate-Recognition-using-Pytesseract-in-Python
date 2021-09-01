@@ -1,6 +1,7 @@
 # Pakistani-cars-Number-Plate-Recognition-using-Pytesseract-in-Python
 
-1.	Perspective De-skewing Through Contours
+## Perspective De-skewing Through Contours
+
 •	Image enhancement [resizing, grayscale, gaussian blur, adaptive thresholding]
 •	Contour detection
 •	Contour sorting (left-to-right)
@@ -12,12 +13,14 @@
 •	Adding and subtracting some pixels out of corner coordinates to introduce slight skewness for perspective transform.
 •	Application of perspective transform on enhanced and skewed images
 
-2.	Pytesseract after Image Enhancement Techniques
+## Pytesseract after Image Enhancement Techniques
+
 •	Image enhancement [resizing, gaussian blur, Otsu’s thresholding, 2D-sharpening]
 •	Passing enhanced image to pytesseract for text extraction
 •	Appending text in a list for post processing
 •	Frequency Matching of maximum entries and accessing the top entry
 •	Checking the length of the extracted text
+
 o	If length is less than 7, we slice the first half chunks for alphabets and remaining half as numbers. 
 	Check if the length is divisible by 2, slice the first half as alphabets and second half as numbers.
 	Else, increment the length and do the same as above except this time subtract one to get three numbers. (e.g if length is 5, chances are that the text will have three alphabets and two numbers. So, it will slice first three and last three)  
